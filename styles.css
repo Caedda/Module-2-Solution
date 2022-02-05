@@ -10,13 +10,13 @@ h1 {
 .section1 {
   border: 1px solid black;
   background-color: #A52A2A;
-  width: 90%;
   height: 150px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
   color: black;
   margin: 50px;
+  
   
 
 }
@@ -24,28 +24,25 @@ h1 {
 .section2{
   border: 1px solid black;
   background-color: grey;
-  width: 90%;
   height: 150px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
   color: black;
   margin: 50px;
-
   
 }
 
 .section3{
   border: 1px solid black;
   background-color: purple;
-  width: 90%;
   height: 150px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
   color: black;
   margin: 50px;
-
+  
 
 }
 
@@ -56,6 +53,7 @@ h1 {
   width: 30%;
   margin-left: 70%;
   
+  
 
 }
 
@@ -65,6 +63,17 @@ h1 {
   clear: left;
   width: 30%;
   margin-left: 70%;
+  
+}
+
+.content3{
+  background-color: hotpink;
+  float: right;
+  clear: left;
+  width: 30%;
+  margin-left: 70%;
+ 
+
 
 }
 
@@ -121,8 +130,7 @@ h1 {
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    
+    float: left;    
 
   }
   .col-md-1 {
